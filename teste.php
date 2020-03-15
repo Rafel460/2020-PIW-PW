@@ -18,16 +18,24 @@
     </div>
     <br>
     <div class="subtitulo">
-        <h2>Noticias Novas!</h2>
+        <h1 style="text-align: center; font-family: 'Carter One';">Noticias Novas!</h1>
+        <h3 style="text-align: center;">Clique nas imagens para ter a noticia completa!</h3>
         <br>
     </div>
     <div class="campo_noticias">
     <div id="sup_esquerdo">
-        <img id="imagem_sup_esquerdo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.F3ZXJDddRVJBeQ8Vm_aepQD6D6%26pid%3DApi&f=1" alt="teste">
+        <img onclick="funcaoSupEsquerdo()" id="imagem_sup_esquerdo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.F3ZXJDddRVJBeQ8Vm_aepQD6D6%26pid%3DApi&f=1" alt="teste">
         <hr  width="99%" size="5" color="red" style="margin-bottom: 20px;">
         <h4 id="titulo_sup_esquerdo">Texto Noticia 1</h4>
         <p id="texto_sup_esquerdo" style='text-align: center;'>Coloca um paragrafo aqui e abaixo disso um botao que expande</p>
-        <button id="botao_teste" onclick="funcaoSupEsquerdo()" style='margin-left: 10%;'>Clica aqui pra ver um negocio</button>
+        
+    </div>
+
+    <div id="central_direito">
+        <img onclick="funcaoCentralDireito()" id="imagem_central_direito" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP._Am20gSHjCXhhCN-W86_zgHaEK%26pid%3DApi&f=1" alt="imagem teste">
+        <h4 id="titulo_central_direito">Texto Noticia 2</h4>
+        <p id="texto_central_direito">Colocarei ouro texto para tentar tornar esse negocio bonito!</p>
+        <br><br>
     </div>
 
     </div>

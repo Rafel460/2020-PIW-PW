@@ -21,17 +21,19 @@
 .campo_noticias{
     border: 2px solid #AFADAC;
     padding: 15pt;
-    padding-bottom: 5%;
+    padding-bottom: 20%;
     max-width: 90%;
     margin-left: 3.5%;
     align-content: center;
     background-color: lightcyan;
+    padding-top: 5%;
 }
 .campo_noticias #sup_esquerdo{
-border: 2px solid red;
 margin-right: 50px;
 max-width: 22%;
 padding-bottom : 30pt;
+padding-top: 25pt;
+background-color: honeydew;
 }
 .campo_noticias #sup_esquerdo #imagem_sup_esquerdo{
     width: 100%;
@@ -39,4 +41,29 @@ padding-bottom : 30pt;
 .campo_noticias #sup_esquerdo #titulo_sup_esquerdo{
     font-family: 'Bowlby One SC';
     text-align: center;
+}
+
+.campo_noticias #central_direito{
+    /* border: 2px solid gray; */
+    border-bottom: 3px solid black;
+    max-width : 50%;
+    margin-left: 30%;
+    margin-top: -36.2%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-top: 20pt;
+    background-color: honeydew;
+}
+.campo_noticias #central_direito #imagem_central_direito{
+    width: 80%;
+    margin-left: 10%;
+}
+.campo_noticias #central_direito #titulo_central_direito{
+    margin-left: 92.5%;
+    margin-top: -40%;
+    font-family: 'Bowlby One SC';
+}
+.campo_noticias #central_direito #texto_central_direito{
+    margin-left: 92.5%;
+    margin-top: -0%;
 }
