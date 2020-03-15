@@ -24,20 +24,24 @@
     </div>
     <div class="campo_noticias">
     <div id="sup_esquerdo">
-        <img onmouseover="aumentarImagemSupEsquerdo()" onmouseout="diminuirImagemSupEsquerdo()" onclick="funcaoSupEsquerdo()" id="imagem_sup_esquerdo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.F3ZXJDddRVJBeQ8Vm_aepQD6D6%26pid%3DApi&f=1" alt="teste">
+        <img onmouseover="aumentarImagemSupEsquerdo()" onmouseout="diminuirImagemSupEsquerdo()" onclick="funcaoSupEsquerdo()" id="imagem_sup_esquerdo" src="https://s2.glbimg.com/FueGRE6zKxb8xQBG2c6WuEkVWgI=/382x0:1758x774/540x304/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/P/1/3APtO6QXiHtV8YKvpBUQ/corinthians-ituano2.png" alt="teste">
         <hr  width="99%" size="5" color="red" style="margin-bottom: 20px;">
-        <h4 id="titulo_sup_esquerdo">Texto Noticia 1</h4>
-        <p id="texto_sup_esquerdo" style='text-align: center;'>Coloca um paragrafo aqui e abaixo disso um botao que expande</p>
+        <h4 id="titulo_sup_esquerdo">Corinthians tropeça de novo e vê classificação mais distante</h4>
+        <p id="texto_sup_esquerdo" style='text-align: center;'>Em estádio vazio, time voltou a perder gols e precisa torcer contra o Guarani amanhã.</p>
         
     </div>
 
     <div id="central_direito">
-        <img onclick="funcaoCentralDireito()" id="imagem_central_direito" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP._Am20gSHjCXhhCN-W86_zgHaEK%26pid%3DApi&f=1" alt="imagem teste">
-        <h4 id="titulo_central_direito">Texto Noticia 2</h4>
-        <p id="texto_central_direito">Colocarei ouro texto para tentar tornar esse negocio bonito!</p>
-        <br><br>
+        <img onmouseover="aumentarImagemCentralDireito()" onmouseout="diminuirImagemCentralDireito()" onclick="funcaoCentralDireito()" id="imagem_central_direito" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FB93uZPvThKc%2Fmaxresdefault.jpg&f=1&nofb=1" alt="imagem teste">
+        <h4 id="titulo_central_direito">Brasil tem 176 casos de coronavírus, segundo relatório do Ministério da Saúde</h4>
+        <p id="texto_central_direito"> No relatório, São Paulo é o estado com o maior número de casos confirmados, com 112. Isso representa 63,6% de todos os casos no país. O Rio de Janeiro é o segundo estado com mais casos, com 24. </p>
+        <br>
     </div>
-
+    <div id="central_inferior">
+    <img onclick="funcaoCentralInferior()" onmouseover="aumentarImagemCentralInferior()" onmouseout="diminuirImagemCentralInferior()" id="imagem_central_inferior" src="https://s2.glbimg.com/_hxOPqGWPifH3bG5_lhslEHhAsU=/0x240:1280x960/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/S/I/oExxUuSXSVzby6Dt7mAA/whatsapp-image-2020-03-15-at-13.23.43.jpeg" alt="imagem teste">
+        <h4 id="titulo_central_inferior">Mesmo com o surto do COVID-19, apoiadores de Bolsonaro vão as ruas</h4>
+        <p id="texto_central_inferior"> Apesar da orientação de autoridades da Saúde de vários estados e da Organização Mundial da Saúde (OMS) para suspender a realização de eventos com grandes aglomerações para evitar a disseminação do novo coronavírus (Sars-Cov-2), apoiadores do governo não atenderam ao apelo. </p>
+    </div>
     </div>
 </body>
 

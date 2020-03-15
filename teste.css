@@ -18,6 +18,7 @@
     font-family: 'Carter One';
 }
 
+/*Campo das noticias, geral*/
 .campo_noticias{
     border: 2px solid #AFADAC;
     padding: 15pt;
@@ -26,8 +27,10 @@
     margin-left: 3.5%;
     align-content: center;
     background-color: lightcyan;
-    padding-top: 5%;
+    padding-top: 10%;
 }
+
+/*Campo das noticias, superior-esquerdo*/
 .campo_noticias #sup_esquerdo{
 margin-right: 50px;
 max-width: 22%;
@@ -43,6 +46,7 @@ background-color: honeydew;
     text-align: center;
 }
 
+/*Campo das noticias, central-direito*/
 .campo_noticias #central_direito{
     /* border: 2px solid gray; */
     border-bottom: 3px solid black;
@@ -59,11 +63,34 @@ background-color: honeydew;
     margin-left: 10%;
 }
 .campo_noticias #central_direito #titulo_central_direito{
-    margin-left: 92.5%;
-    margin-top: -40%;
-    font-family: 'Bowlby One SC';
+    text-align: center;
+   
 }
 .campo_noticias #central_direito #texto_central_direito{
-    margin-left: 92.5%;
-    margin-top: -0%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+/*Campo das noticias, central-inferior*/
+.campo_noticias #central_inferior{
+    border-bottom: 3px solid black;
+    max-width : 50%;
+    margin-left: 30%;
+    background-color: honeydew;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-top: 20pt;
+}
+.campo_noticias #central_inferior #imagem_central_inferior{
+    width: 80%;
+    margin-left: 10%;
+}
+.campo_noticias #central_inferior #titulo_central_inferior{
+    margin-left: 5%;
+    text-align: center;
+   
+}
+.campo_noticias #central_inferior #texto_central_inferior{
+    text-align: justify;
+    margin-left: 5%;
 }
