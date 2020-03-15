@@ -5,11 +5,21 @@ function alterarFundo(){
     document.getElementById("Jornal_sub").style = "color: white";
     document.querySelector(".subtitulo").innerHTML = "<h2 style='font-size: 20px; text-align: center;'>Isso foi um Easter Egg, Parabéns</h2> <br>";
 }
+
+
+function aumentarImagemSupEsquerdo(){
+    document.getElementById('imagem_sup_esquerdo').style = "width: 150%";
+}
+function diminuirImagemSupEsquerdo(){
+    document.getElementById('imagem_sup_esquerdo').style = "width: 100%";
+}
 function funcaoSupEsquerdo(){
     var titulo = document.getElementById('titulo_sup_esquerdo').innerText;
     var texto = document.getElementById('texto_sup_esquerdo').innerText;
     document.body.innerHTML = "<div class='vamo' style='padding: 15pt; border: 2px solid red; border-radius: 30px; max-width: 60%; margin-left: 20%;'> <h1 style='text-align: center; font-family: Carter One;'>"+titulo+"</h1> <p style='text-align: center;'>"+texto+"</p> <br> <p style='text-align: center'><b>Agora recarrega a pagina porque é só um teste mesmo</p></div>";
 }
+
+
 function funcaoCentralDireito(){
     var titulo = document.getElementById('titulo_central_direito').innerText;
     var texto = document.getElementById('texto_central_direito').innerText;

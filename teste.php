@@ -24,7 +24,7 @@
     </div>
     <div class="campo_noticias">
     <div id="sup_esquerdo">
-        <img onclick="funcaoSupEsquerdo()" id="imagem_sup_esquerdo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.F3ZXJDddRVJBeQ8Vm_aepQD6D6%26pid%3DApi&f=1" alt="teste">
+        <img onmouseover="aumentarImagemSupEsquerdo()" onmouseout="diminuirImagemSupEsquerdo()" onclick="funcaoSupEsquerdo()" id="imagem_sup_esquerdo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.F3ZXJDddRVJBeQ8Vm_aepQD6D6%26pid%3DApi&f=1" alt="teste">
         <hr  width="99%" size="5" color="red" style="margin-bottom: 20px;">
         <h4 id="titulo_sup_esquerdo">Texto Noticia 1</h4>
         <p id="texto_sup_esquerdo" style='text-align: center;'>Coloca um paragrafo aqui e abaixo disso um botao que expande</p>
