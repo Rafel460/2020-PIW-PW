@@ -1,0 +1,42 @@
+.titulo{
+    length: 200px;
+    padding-top: px;
+    padding: 2px;
+    padding-left: 2pt;
+    padding-right: 2pt;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: gray;
+}
+.titulo #Jornal{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bowlby One SC';
+}
+.titulo #Jornal_sub{
+    margin-left: 15%;
+    font-family: 'Carter One';
+}
+
+.campo_noticias{
+    border: 2px solid #AFADAC;
+    padding: 15pt;
+    padding-bottom: 5%;
+    max-width: 90%;
+    margin-left: 3.5%;
+    align-content: center;
+    background-color: lightcyan;
+}
+.campo_noticias #sup_esquerdo{
+border: 2px solid red;
+margin-right: 50px;
+max-width: 22%;
+padding-bottom : 30pt;
+}
+.campo_noticias #sup_esquerdo #imagem_sup_esquerdo{
+    width: 100%;
+}
+.campo_noticias #sup_esquerdo #titulo_sup_esquerdo{
+    font-family: 'Bowlby One SC';
+    text-align: center;
+}
