@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="teste.css">
-    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Carter+One|Cutive|IM+Fell+English|Patua+One|Tinos&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Carter+One|Cutive|IM+Fell+English|Patua+One|Tinos&display=swap" rel="stylesheet">
     <script src="teste.js"></script>
     <title>Pagina PIW</title>
-
- 
 </head>
 <body>
+  <div class="menu">
+    <ul class="menu-forma">
+      <li class="menu-itens menu-item-1"><a class="caixa-menu caixa-1" href="#">Item da lista 1</a></li>
+      <li class="menu-itens menu-item-2"><a class="caixa-menu caixa-2" href="#">Item da lista 2</a></li>
+      <li class="menu-itens menu-item-3"><a class="caixa-menu caixa-3" href="#">Item da lista 3</a></li>
+      <li class="menu-itens menu-item-4"><a class="caixa-menu caixa-4" href="#">Item da lista 4</a></li>
+    </ul>
+  </div>
     <div class="titulo" onclick="alterarFundo()">
         <h2 id="Jornal">Jornal Ameno</h2>
         <h5 id="Jornal_sub">"As noticias mais inacreditáveis de todos os tempos"</h5>
     </div>
     <br>
     <div class="subtitulo">
-        <h1 style="text-align: center; font-family: 'Carter One';">Noticias Novas!</h1>
+        <h1 id="subtitulo_titulo">Noticias Novas!</h1>
         <h3 style="text-align: center;">Clique nas imagens para ter a noticia completa!</h3>
         <br>
     </div>
@@ -28,7 +34,7 @@
         <hr  width="99%" size="5" color="red" style="margin-bottom: 20px;">
         <h4 id="titulo_sup_esquerdo">Corinthians tropeça de novo e vê classificação mais distante</h4>
         <p id="texto_sup_esquerdo" style='text-align: center;'>Em estádio vazio, time voltou a perder gols e precisa torcer contra o Guarani amanhã.</p>
-        
+
     </div>
 
     <div id="central_direito">

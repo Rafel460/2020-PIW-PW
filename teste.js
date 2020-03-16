@@ -1,3 +1,5 @@
+//funções menu
+
 //Funções do plano de fundo
 function alterarFundo(){
     document.querySelector(".titulo").style = "background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F959c13ab1cc5b017a899efe1210b81aa%2Ftenor.gif%3Fitemid%3D16213530&f=1&nofb=1) repeat";
@@ -6,7 +8,6 @@ function alterarFundo(){
     document.getElementById("Jornal_sub").style = "color: white";
     document.querySelector(".subtitulo").innerHTML = "<h2 style='font-size: 20px; text-align: center;'>Isso foi um Easter Egg, Parabéns</h2> <br>";
 }
-//
 
 //Funções do canto-esquerdo
 function aumentarImagemSupEsquerdo(){
@@ -21,7 +22,6 @@ function funcaoSupEsquerdo(){
     var textocont1 = " O Corinthians empatou por 1 a 1 com o Ituano neste domingo, em Itaquera, pela décima rodada do Campeonato Paulista – o jogo foi de portões fechados por prevenção à pandemia de coronavírus. Após falha de Cássio, o time do interior saiu na frente com gol de Breno Lopes. O Timão igualou com Luan. É a sexta partida seguida do Corinthians sem vitória. O último triunfo no estadual foi no dia 2 de fevereiro, contra o Santos. De lá para cá, quatro empates e duas derrotas. Até por isso, o time alvinegro está ameaçado de ficar fora das quartas de final.";
     document.body.innerHTML = "<div class='vamo' style='padding: 15pt; border: 2px solid red; border-radius: 30px; max-width: 60%; margin-left: 20%;'> <h1 style='text-align: center; font-family: Carter One;'>"+titulo+"</h1> <p style='text-align: center;'>"+texto+textocont1+"</p> <br> <a href='https://globoesporte.globo.com/sp/futebol/campeonato-paulista/jogo/15-03-2020/corinthians-ituano.ghtml' target='_blank' style='font-family: Bowlby One; text-align: center;'>Disponivel aqui</a> <br> <p style='text-align: center'><b>Recarregue a pagina para voltar</p></div>";
 }
-//
 
 //Funções do centro-direita
 function funcaoCentralDireito(){
@@ -34,7 +34,7 @@ function funcaoCentralDireito(){
 }
 function aumentarImagemCentralDireito(){
     document.getElementById('imagem_central_direito').style = "width: 100%";
-    
+
 }
 function diminuirImagemCentralDireito(){
     document.getElementById('imagem_central_direito').style = "width: 80%";
@@ -51,7 +51,7 @@ function funcaoCentralInferior(){
 }
 function aumentarImagemCentralInferior(){
     document.getElementById('imagem_central_inferior').style = "width: 100%";
-    
+
 }
 function diminuirImagemCentralInferior(){
     document.getElementById('imagem_central_inferior').style = "width: 80%";

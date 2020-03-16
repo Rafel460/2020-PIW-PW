@@ -1,3 +1,29 @@
+/*menu*/
+.menu{
+  border: 3px solid black;
+  background-color: #262626;
+  max-width: 97.1%;
+  margin: auto;
+}
+.menuforma{
+
+}
+.menu-itens{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.caixa-menu{
+  text-decoration: none;
+  font-family: 'Carter One';
+  color: white;
+  padding: 18px 120px;
+}
+.caixa-menu:hover{
+  background-color: black;
+}
+/*titulo do jornal*/
 .titulo{
     length: 200px;
     padding-top: px;
@@ -18,6 +44,13 @@
     font-family: 'Carter One';
 }
 
+/* Apresentação das noticias */
+.subtitulo #subtitulo_titulo{
+ text-align: center;
+  font-family: 'Carter One';
+
+}
+
 /*Campo das noticias, geral*/
 .campo_noticias{
     border: 2px solid #AFADAC;
@@ -32,11 +65,11 @@
 
 /*Campo das noticias, superior-esquerdo*/
 .campo_noticias #sup_esquerdo{
-margin-right: 50px;
-max-width: 22%;
-padding-bottom : 30pt;
-padding-top: 25pt;
-background-color: honeydew;
+  margin-right: 50px;
+  max-width: 22%;
+  padding-bottom : 30pt;
+  padding-top: 25pt;
+  background-color: honeydew;
 }
 .campo_noticias #sup_esquerdo #imagem_sup_esquerdo{
     width: 100%;
@@ -64,7 +97,7 @@ background-color: honeydew;
 }
 .campo_noticias #central_direito #titulo_central_direito{
     text-align: center;
-   
+
 }
 .campo_noticias #central_direito #texto_central_direito{
     text-align: justify;
@@ -88,7 +121,7 @@ background-color: honeydew;
 .campo_noticias #central_inferior #titulo_central_inferior{
     margin-left: 5%;
     text-align: center;
-   
+
 }
 .campo_noticias #central_inferior #texto_central_inferior{
     text-align: justify;
